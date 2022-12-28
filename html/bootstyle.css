@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 600px;
+    width: 1400px;
+    margin: 80px auto 0 auto;
+    border-radius: 4px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0  4px rgb(13, 109, 109) inset;
+}
+.sub{
+    height: 550px;
+    width: 1200px;
+    border-radius: 10px;
+    
+}
+
+.info{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+   background-color:rgba(13, 109, 109, 0.533);
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.img-d{
+    margin-top: 10px;
+}
+span{
+    display: block;
+    font-weight: 700;
+}
+.profile{
+
+    border-right: 2px solid white;
+    color: aliceblue;
+
+}
+.details{
+    
+    border-right: 2px solid white;
+
+    color: aliceblue;
+}
+h4{
+    text-align: left;
+   
+}
+
+.name input{
+    margin: 5px;
+    width: 180px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.name label{
+    text-align: left;
+    display: block;
+    margin-left: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.num input{
+    margin: 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.num label{
+    text-align: left;
+    display: block;
+    margin-left: 5px;
+}
+.num{
+    margin-top: 10px;
+    
+}
+.btn input{
+    margin: 5px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+}
+.btn input:hover{
+    box-shadow: 4px 4px 12px rgb(13, 109, 109) inset;
+    
+}
+
+.ex{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.ex input{
+    width: 100px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.last{
+    color: white;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+.last div{
+    margin-bottom: 10px;
+}
+.ex input:hover{
+    box-shadow: 4px 4px 12px rgb(13, 109, 109) inset;
+}

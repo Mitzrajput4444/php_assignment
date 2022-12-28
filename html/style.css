@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(41, 199, 183);
+
+}
+.con{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px auto 0 auto;
+    background-color: aliceblue;
+    box-shadow:5px 5px 50px 12px rgba(41, 199, 183,0.50) ;
+   
+}
+header{
+    font-size: 25px;
+    font-weight: 500px;
+    color: black;
+    position: relative;
+}
+header::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    left: 0;
+    border-radius: 8px;
+    background-color: rgb(14, 213, 210);
+}
+.con form{
+    position: relative;
+    min-height: 500px;
+    margin-top: 16px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px ;
+}
+.info  {
+    display: flex;
+    margin-top: 10px;
+    gap:25px;
+   /* flex-direction: column; */
+    
+}
+.info input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 0 0  4px rgb(14, 213, 210) inset;
+}
+.details input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 0 0  4px rgb(14, 213, 210) inset;
+}
+textarea{
+    outline: none;
+    border: none;
+    width: 280px;
+    padding: 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 0 0 4px rgb(14, 213, 220) inset;
+}
+h3{
+    margin: 20px 0;
+    color:rgb(14, 213, 210) ;
+}
+select{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 0 0 4px rgb(14, 213, 210) inset;
+    background-color: white;
+}
+.details{
+    display: flex;
+    gap: 25px;
+    
+}
+p{
+    font-size: 25px;
+    color: black;
+    display: inline;
+}
+.delivery-details{
+    display: flex;
+    gap: 20px;
+}
+.radio input{
+    margin: 0 10px;
+}
+.Card{
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+
+}
+.text input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 0 0 4px rgb(14, 213, 210) inset;
+}
+.btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.btn input{
+    box-shadow: 0 0 4px rgb(14, 213, 210) inset;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn input:hover{
+    box-shadow: 4px 4px 12px black inset;
+}
