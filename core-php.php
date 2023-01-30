@@ -177,14 +177,9 @@ echo "Explain-because a value is 1 and a value putin b now b value 1 and last li
 <hr/>
 <?php
 echo "10.How can you tell if a number is even or odd without using any Condition or loop?.<br/>";
-for($i=1;$i<=10;$i++){
-    if($i%2 == 0){
-        echo $i."-no is even<br/>";
-    }
-    else{
-        echo $i."-no is odd<br/>";
-    }
-}
+$checknum = ["num is even","num is odd"];
+$n = 3;
+echo $checknum[$n % 2];
 ?>
 <hr/>
 <?php
